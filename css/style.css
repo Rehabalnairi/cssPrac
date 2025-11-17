@@ -1,0 +1,63 @@
+body {
+    background-image: url("../img/drew-coffman-1872.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    z-index: a99;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 200px;
+}
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 50px;
+    color: white;
+     text-align: center;
+    margin: 0;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    color: white;
+     text-align: center;
+    margin: 0;
+}
+.btn-box {
+    text-align: center;  
+    margin-top: 20px;
+}
+
+
+.btn-primary {
+    background-color: #503414;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 12px;
+  
+    margin: 10px;
+     display: inline-block;
+   
+}
+.btn-outline {
+    background-color:transparent;
+    border: 2px solid #c47f30;
+    color: #ffffff;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 12px;
+   
+    margin: 10px;
+    display: inline-block;
+    
+}

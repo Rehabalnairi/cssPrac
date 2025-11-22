@@ -83,5 +83,30 @@
     background-color: rgba(255, 255, 255, 0.4) !important;
       
 }
+.side-box {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background: white;
+  padding: 20px 15px;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  z-index: 9999;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px; /* space between icons */
+}
 
+.side-box i {
+  font-size: 32px;
+  color: #6c6c6c;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #322101; /* Change to your color */
+}
 
